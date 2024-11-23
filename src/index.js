@@ -8,10 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* Add BrowserRouter with the basename */}
-    <BrowserRouter basename="/Foodie-Delight">
       <App />
-    </BrowserRouter>
   </React.StrictMode>
 );
 
