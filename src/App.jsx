@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"; // Only use Routes and Route here
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -31,13 +31,8 @@ function App() {
     });
   };
 
-  // Function to clear the cart
-  const clearCart = () => {
-    setCart([]);
-  };
-
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="content">
         <Routes>
@@ -48,10 +43,10 @@ function App() {
             element={<MenuPage addToCart={addToCart} cart={cart} />}
           />
           <Route path="/order" element={<OrderCustomizationPage />} />
-          {/* Pass cart and clearCart to ShoppingCartPage */}
+          {/* Pass cart to ShoppingCartPage */}
           <Route
             path="/cart"
-            element={<ShoppingCartPage cart={cart} setCart={setCart} clearCart={clearCart} />}
+            element={<ShoppingCartPage cart={cart} setCart={setCart} />}
           />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutUsPage />} />
@@ -59,7 +54,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </Router>
+    </>
   );
 }
 
