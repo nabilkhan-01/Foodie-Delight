@@ -1,0 +1,44 @@
+.homepage {
+    padding: 2rem;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #ff5722, #ff9800);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .hero .cta-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hero .cta-btn:hover {
+    background-color: #ffeb3b;
+  }
+  
+  .featured {
+    margin-top: 2rem;
+  }
+  
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .dish-card {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

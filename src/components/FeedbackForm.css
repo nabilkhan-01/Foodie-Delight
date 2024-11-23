@@ -1,0 +1,116 @@
+.feedback-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea,
+  .feedback-form select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .feedback-form input:focus,
+  .feedback-form textarea:focus,
+  .feedback-form select:focus {
+    outline: none;
+    border-color: #ff5722;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.5);
+  }
+  
+  .feedback-form textarea {
+    resize: vertical;
+  }
+  
+  .feedback-form button {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #ff9800;
+  }
+  
+  .feedback-form .rating {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-form .rating label {
+    margin: 0;
+  }
+  
+  .feedback-form .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .feedback-form .rating label span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .feedback-form .rating input[type="radio"]:checked + label span {
+    background-color: #ff5722;
+    color: white;
+    border-color: #ff5722;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .feedback-form {
+      padding: 1rem;
+    }
+  
+    .feedback-form h2 {
+      font-size: 1.25rem;
+    }
+  
+    .feedback-form button {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.order-customization-page {
+    padding: 2rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .add-ons label {
+    display: block;
+  }
+  
+  .order-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-btn:hover {
+    background-color: #ff9800;
+  }
+  
