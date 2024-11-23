@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <Router basename="/Foodie-Delight">
+    <Router>
       <Navbar />
       <div className="content">
         <Routes>
