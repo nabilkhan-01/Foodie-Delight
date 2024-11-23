@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nabilkhan-01/Foodie-Delight/static/css/main.f65c5f70.css",
-    "main.js": "/nabilkhan-01/Foodie-Delight/static/js/main.41c1b843.js",
-    "static/js/453.22175de9.chunk.js": "/nabilkhan-01/Foodie-Delight/static/js/453.22175de9.chunk.js",
+    "main.js": "/nabilkhan-01/Foodie-Delight/static/js/main.abae7b55.js",
+    "static/js/453.c1dddc86.chunk.js": "/nabilkhan-01/Foodie-Delight/static/js/453.c1dddc86.chunk.js",
     "index.html": "/nabilkhan-01/Foodie-Delight/index.html",
     "main.f65c5f70.css.map": "/nabilkhan-01/Foodie-Delight/static/css/main.f65c5f70.css.map",
-    "main.41c1b843.js.map": "/nabilkhan-01/Foodie-Delight/static/js/main.41c1b843.js.map",
-    "453.22175de9.chunk.js.map": "/nabilkhan-01/Foodie-Delight/static/js/453.22175de9.chunk.js.map"
+    "main.abae7b55.js.map": "/nabilkhan-01/Foodie-Delight/static/js/main.abae7b55.js.map",
+    "453.c1dddc86.chunk.js.map": "/nabilkhan-01/Foodie-Delight/static/js/453.c1dddc86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f65c5f70.css",
-    "static/js/main.41c1b843.js"
+    "static/js/main.abae7b55.js"
   ]
 }
