@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Foodie-Delight/static/css/main.24df1c72.css",
-    "main.js": "/Foodie-Delight/static/js/main.f4886d3d.js",
+    "main.js": "/Foodie-Delight/static/js/main.3235e313.js",
     "static/js/453.c1dddc86.chunk.js": "/Foodie-Delight/static/js/453.c1dddc86.chunk.js",
     "index.html": "/Foodie-Delight/index.html",
     "main.24df1c72.css.map": "/Foodie-Delight/static/css/main.24df1c72.css.map",
-    "main.f4886d3d.js.map": "/Foodie-Delight/static/js/main.f4886d3d.js.map",
+    "main.3235e313.js.map": "/Foodie-Delight/static/js/main.3235e313.js.map",
     "453.c1dddc86.chunk.js.map": "/Foodie-Delight/static/js/453.c1dddc86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24df1c72.css",
-    "static/js/main.f4886d3d.js"
+    "static/js/main.3235e313.js"
   ]
 }
