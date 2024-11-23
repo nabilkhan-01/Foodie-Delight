@@ -36,7 +36,10 @@ function ShoppingCartPage({ cart, setCart }) {
     <div className="shopping-cart-page">
       <h1>Your Shopping Cart</h1>
       {cart.length === 0 ? (
-        <p>Your cart is empty!</p>
+        <div>
+          <p>Your cart is empty!</p>
+          <button onClick={() => window.location.href = '/menu'}>Go to Menu</button>
+        </div>
       ) : (
         <>
           <div className="cart-items">

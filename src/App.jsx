@@ -31,6 +31,11 @@ function App() {
     });
   };
 
+  // Function to clear the cart
+  const clearCart = () => {
+    setCart([]);
+  };
+
   return (
     <Router>
       <Navbar />
@@ -43,10 +48,10 @@ function App() {
             element={<MenuPage addToCart={addToCart} cart={cart} />}
           />
           <Route path="/order" element={<OrderCustomizationPage />} />
-          {/* Pass cart to ShoppingCartPage */}
+          {/* Pass cart and clearCart to ShoppingCartPage */}
           <Route
             path="/cart"
-            element={<ShoppingCartPage cart={cart} setCart={setCart} />}
+            element={<ShoppingCartPage cart={cart} setCart={setCart} clearCart={clearCart} />}
           />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutUsPage />} />
